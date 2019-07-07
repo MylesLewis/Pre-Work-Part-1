@@ -46,43 +46,59 @@ with the team so we can improve the activity for future applicants.  Thank you! 
 
 /* Your CSS code goes here */
 
-
-
-
-
 <style>
-  #box-container {
-    height: 500px;
-    display: flex;
-    flex-direction: column;
+	#container {
+		margin: 2em auto;
+		max-width: 630px;
+		text-align: center;
+	}
 
-    }
+#b1 {
+	background-color: blue;
+	width: 80%;
+	height: 15%;
+	border-radius: 3%
+}
 
-
-  #box-1 {
-    background-color: dodgerblue;
-    width: 80%;
-    height: 15%;
-    border-radius: 3%
-  }
-
-  #box-2 {
-    background-color: orangered;
-    width: 50%;
-    height: 50%;
-		border-radius: 2%
-  }
-  #box-3 {
-    background-color: green;
-    width: 50%;
-    height: 50%;
-		border-radius: 3%
-  }
+#b2 {
+	background-color: orange;
+	width: 50%;
+	height: 50%;
+	border-radius: 2%
+}
+#b3 {
+	background-color: green;
+	width: 50%;
+	height: 50%;
+	border-radius: 3%
+}
+#b4 {
+	background-color: light-grey;
+	width: 50%;
+	height: 50%;
+	border-radius: 3%
+}
+#b5 {
+	background-color: grey;
+	width: 50%;
+	height: 50%;
+	border-radius: 3%
+}
 </style>
-<div id="box-container">
-  <div id="box-1">
-   <p> This is the text </p>
-  </div>
-  <div id="box-2"></div>
-  <div id="box-3"></div>
+<div id="container">
+<div id="b1">
+<p> $167 still needed for this project </p>
+</div>
+<div id="b2">
+<p> Test text for box 2 </p>
+</div>
+<div id="b3">
+	<p> Test text for box 3 </p>
+</div>
+<div id="b4">
+	<p> Test text for box 4 </p>
+</div>
+<div id="b5">
+	<p> Test text for box 5 </p>
+</div>
 </div>
