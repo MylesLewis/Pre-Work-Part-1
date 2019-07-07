@@ -87,24 +87,27 @@ with the team so we can improve the activity for future applicants.  Thank you! 
 #b4 {
 	background-color: grey;
 	width: 10em;
-	height: 5%;
-border-radius: 3%;
+	height: 4em;
+	border-radius: 3%;
 	float: left;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #eaeaea;
+	margin: 1em;
 	}
+
 
 #b5 {
 	background-color: grey;
 	width: 10em;
-	height: 5%;
+	height: 4em;
 border-radius: 3;
 	text-align: center;
 	float: right;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #eaeaea;
+	margin: 1em;
 	}
 
 #b6 {
@@ -159,15 +162,6 @@ background: #eaeaea;
 	<br>
 	<br>
 	<a href="google.com"> <i> Why give $50? </i> </a>
-</div>
-
-<div id="b6">
-	<p> Save for later </p>
-</div>
-<div id="b7">
-	<p> Tell your friends </p>
-</div>
-
 </div>
 
 <div id="b6">
