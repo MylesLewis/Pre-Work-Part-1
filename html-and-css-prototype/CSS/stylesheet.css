@@ -93,13 +93,17 @@ border-radius: 3;
 	background-color: purple;
 	width: 10em;
 	height: 5%;
-border-radius: 3;}
+border-radius: 3;
+	float: left;
+	}
 
 #b7 {
 	background-color: purple;
 	width: 10em;
 	height: 5%;
-border-radius: 3;}
+border-radius: 3;
+	float: right;
+	}
 
 </style>
 <div id="container">
