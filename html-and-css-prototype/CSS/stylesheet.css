@@ -24,7 +24,12 @@ h1 {
 	text-align: center;
 }
 
-/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+/* The following font information and color codes are provided for you.
+They do not match the prototype exactly, but they are fine to use for the
+assignment and doing so does not count against you.  They are simply meant to help you save time.
+We would like everyone to have as close to a pixel-perfect match to the prototype as possible.
+If you do find a font/color that matches more precisely, please share it
+with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
 
 	FONTS:
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
@@ -40,3 +45,41 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+
+
+
+
+<style>
+  #box-container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+    }
+
+
+  #box-1 {
+    background-color: dodgerblue;
+    width: 80%;
+    height: 15%;
+    border-radius: 3%
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+
+  }
+  #box-3 {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+  }
+</style>
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+  <div id="box-3"></div>
+</div>
