@@ -75,25 +75,29 @@ border-radius: 3%;}
 
 #b4 {
 	background-color: grey;
-	width: 25%;
+	width: 10em;
 	height: 5%;
-border-radius: 3%;}
+border-radius: 3%;
+	float: left;
+	}
 
 #b5 {
 	background-color: grey;
-	width: 25%;
+	width: 10em;
 	height: 5%;
-border-radius: 3;}
+border-radius: 3;
+	float: right;
+	}
 
 #b6 {
 	background-color: purple;
-	width: 25%;
+	width: 10em;
 	height: 5%;
 border-radius: 3;}
 
 #b7 {
 	background-color: purple;
-	width: 25%;
+	width: 10em;
 	height: 5%;
 border-radius: 3;}
 
@@ -107,12 +111,13 @@ border-radius: 3;}
 </div>
 <div id="b3">
 	<p> Test text for box 3 </p>
-</div>
-<div id="b4">
-	<p> Test text for box 4 </p>
-</div>
-<div id="b5">
-	<p> Test text for box 5 </p>
+<br>
+	<div id="b4">
+		<p> Test text for box 4 </p>
+	</div>
+	<div id="b5">
+		<p> Test text for box 5 </p>
+	</div>
 </div>
 <div id="b6">
 	<p> Test text for box 6 </p>
