@@ -80,7 +80,9 @@ with the team so we can improve the activity for future applicants.  Thank you! 
   }
 </style>
 <div id="box-container">
-  <div id="box-1"></div>
+  <div id="box-1">
+   <p> This is the text </p>
+  </div>
   <div id="box-2"></div>
   <div id="box-3"></div>
 </div>
