@@ -48,29 +48,32 @@ with the team so we can improve the activity for future applicants.  Thank you! 
 
 <style>
 	#container {
-		/*margin: 2em auto; */
+		margin: auto;
 		max-width: 630px;
-		text-align: center;
+
 	}
 
 #b1 {
 	background-color: blue;
 	width: 80%;
 	height: 15%;
-	border-radius: 3%}
+	text-align: center;
+	border-radius: 3%
+
+	}
 
 #b2 {
 	background-color: orange;
 	width: 80%;
 	height: 3.45%;
+
 border-radius: 2;
-	padding: 0px;
 	}
 
 #b3 {
 	background-color: green;
 	width: 80%;
-	height: 15%;
+	height: 20%;
 border-radius: 3%;}
 
 #b4 {
@@ -86,6 +89,7 @@ border-radius: 3%;
 	width: 10em;
 	height: 5%;
 border-radius: 3;
+	text-align: center;
 	float: right;
 	}
 
@@ -94,6 +98,7 @@ border-radius: 3;
 	width: 10em;
 	height: 5%;
 border-radius: 3;
+	text-align: center;
 	float: left;
 	}
 
@@ -102,6 +107,7 @@ border-radius: 3;
 	width: 10em;
 	height: 5%;
 border-radius: 3;
+	text-align: center;
 	float: right;
 	}
 
@@ -110,23 +116,28 @@ border-radius: 3;
 <div id="b1">
 <p> $167 still needed for this project </p>
 </div>
-<div id="b2">
-<p> Test text for box 2 </p>
-</div>
+
+<div id="b2"></div>
+
 <div id="b3">
-	<p> Test text for box 3 </p>
-<br>
+	<p> Only 3 days left to fund this project.</p>
+	<p> Join the 42 other doners who have already supported this project. Every dollar helps </p>
 	<div id="b4">
 		<p> Test text for box 4 </p>
 	</div>
 	<div id="b5">
-		<p> Test text for box 5 </p>
+		<p> Give Now </p>
 	</div>
+	<br>
+	<br>
+	<a href="google.com"> <i> Why give $50? </i> </a>
 </div>
+
 <div id="b6">
 	<p> Test text for box 6 </p>
 </div>
 <div id="b7">
 	<p> Test text for box 7 </p>
 </div>
+
 </div>
