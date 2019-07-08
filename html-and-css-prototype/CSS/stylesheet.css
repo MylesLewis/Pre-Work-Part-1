@@ -120,14 +120,14 @@ p {
 	}
 
 .b3 {
-	background-color: green;
+	background-color: white;
 	width: 100%;
 	height: 20%;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #eaeaea;
   text-align: left  !important;
-	padding: 1em;
+  padding: 1em;
 }
 
 input {
@@ -143,7 +143,7 @@ input {
 	}
 
 
-.b5 {
+.button {
 	background-color: grey;
 	width: 8em;
 	height: 3em;
@@ -206,10 +206,12 @@ input {
 	<div class="form">
     <form action="Give-Money">
       <input type="text" placeholder="$50" required>
-    </form>
+
 	</div>
-	<div class="b5">
-		<p> Give Now </p>
+	<div class="button">
+
+  	 <button type="submit">Give Now</button>
+		</form>
 	</div>
 	<br>
 	<br>
