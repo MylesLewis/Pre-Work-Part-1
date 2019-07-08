@@ -105,7 +105,7 @@ p {
 	font-size: 100%;
 	}
 
-#b2-container {
+.b2-container {
 	width: 100%;
 	height: 3%;
 	border-style: solid;
@@ -113,13 +113,13 @@ p {
 	border-width: 2px;
 	background-color: white;
 }
-#b2 {
+.b2 {
 	background-color: #EF5F3C;
 	width: 75%;
 	height: 100%;
 	}
 
-#b3 {
+.b3 {
 	background-color: green;
 	width: 100%;
 	height: 20%;
@@ -128,7 +128,7 @@ p {
 	border-color: #eaeaea;
 }
 
-#b4 {
+.b4 {
 	background-color: grey;
 	width: 10em;
 	height: 4em;
@@ -141,7 +141,7 @@ p {
 	}
 
 
-#b5 {
+.b5 {
 	background-color: grey;
 	width: 10em;
 	height: 4em;
@@ -154,7 +154,7 @@ p {
 	margin: 1em;
 	}
 
-#b6 {
+.b6 {
 	background-color: purple;
 	width: 10em;
 	height: 3em;
@@ -166,7 +166,7 @@ p {
 	border-color: #eaeaea;
 	}
 
-#b7 {
+.b7 {
 	background-color: purple;
 	width: 10em;
 	height: 3em;
@@ -191,17 +191,17 @@ p {
 
   </div>
 
-  <div id="b2-container">
-  <div id="b2"></div>
+  <div class="b2-container">
+  <div class="b2"></div>
   </div>
 
-  <div id="b3">
+  <div class="b3">
   	<p> Only 3 days left to fund this project.</p>
 	  <p> Join the 42 other doners who have already supported this project. Every dollar helps </p>
-	<div id="b4">
+	<div class="b4">
 		<p> Test text for box 4 </p>
 	</div>
-	<div id="b5">
+	<div class="b5">
 		<p> Give Now </p>
 	</div>
 	<br>
@@ -209,10 +209,10 @@ p {
 	<a href="google.com"> <i> Why give $50? </i> </a>
 </div>
 
-<div id="b6">
+<div class="b6">
 	<p> Save for later </p>
 </div>
-<div id="b7">
+<div class="b7">
 	<p> Tell your friends </p>
 </div>
 
