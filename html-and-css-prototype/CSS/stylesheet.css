@@ -80,6 +80,7 @@ h1 {
 	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
 	font-size: 2.5em;
 	font-weight: bold;
+  color: #eaeaea;
 }
 
 p {
@@ -87,6 +88,12 @@ p {
 	color: #777;
 	line-height: 1.4;
 }
+
+a:link {
+  text-decoration: none;
+  color: #20A1D4;
+  font-size: 10pt;
+  }
 
 .container {
 	margin: 2em auto;
@@ -208,26 +215,18 @@ input[type=submit] {
 	border-width: 2px;
 	border-color: #eaeaea;
   margin-top: 10px;
-    position: absolute;
+  position: absolute;
   left: 49.6%;
   top: 78%
 	}
 
-a:link {
-	text-decoration: none;
-	color: #20A1D4;
-  font-size: 10pt;
- }
 
 </style>
 <div class="container">
 
   <div class="b1">
 
-	  <font color="white">
-    <h1> $167 still needed for this project </h1>
-	  </font>
-
+    <h1>$167 still needed for this project</h1>
 
   </div>
 
@@ -237,11 +236,12 @@ a:link {
 
   <div class="b3">
   	<p> <b> <font color= #EF5F3C>Only 3 days left</font></b> to fund this project.</p>
-		</br>
+    </br>
 	  <p> Join the 42 other doners who have </br>
     already supported this project. Every </br>
     dollar helps. </p>
-		</br>
+    </br>
+
 
     <form action="Give-Money">
       <input type="text" placeholder="$50" required>
@@ -254,6 +254,7 @@ a:link {
 	</div>
 	</br>
 	</br>
+
 	<a href="google.com"> <i> Why give $50? </i> </a>
 </div>
 
