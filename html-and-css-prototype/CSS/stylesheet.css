@@ -112,7 +112,7 @@ a:link {
 	border-radius: 3%;
 	font-size: 4pt;
   margin-left: 2px;
-  left: 32%;
+  left: 33%;
   top 25%;
   position: absolute;
 
@@ -126,7 +126,7 @@ a:link {
 	border-width: 2px;
 	background-color: white;
   position: absolute;
-  left: 32%;
+  left: 33%;
   top: 53%;
 }
 .b2 {
@@ -147,7 +147,7 @@ a:link {
   overflow: auto;
   font-size: 10pt;
   position: absolute;
-  left: 32%;
+  left: 33%;
   top: 54.5%
 }
 
@@ -207,7 +207,7 @@ input[type=text] {
 	border-color: #eaeaea;
   margin-top: 10px;
   position: absolute;
-  left: 32%;
+  left: 33%;
   top: 78%
 
 	}
@@ -227,7 +227,7 @@ input[type=text] {
 	border-color: #eaeaea;
   margin-top: 10px;
   position: absolute;
-  left: 49.6%;
+  left: 50.6%;
   top: 78%
 	}
 
