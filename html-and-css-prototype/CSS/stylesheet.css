@@ -241,7 +241,7 @@ a:link {
 	  <p> Join the 42 other doners who have </br>
     already supported this project. Every </br>
     dollar helps </p>
-
+		</br>
 
     <form action="Give-Money">
       <input type="text" placeholder="$50" required>
