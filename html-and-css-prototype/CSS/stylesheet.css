@@ -46,6 +46,7 @@ with the team so we can improve the activity for future applicants.  Thank you! 
 
 /* Your CSS code goes here */
 
+<style>
 * {
   box-sizing: border-box;
   margin: 0;
@@ -99,14 +100,37 @@ a:link {
   position: absolute;
 
 	}
-  .speech-bubble .arrow-down {
+
+  #triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 9px solid #424242;
+    position: absolute;
+    left: 215px;
+    }
+/*  .speech-bubble .arrow-down1 {
   border-color: #424242 #424242 transparent transparent;
   border-style: solid;
   border-width: 0px 10px 11px 215px;
   width: 0;
   height: 0;
+  position: absolute;
 
 }
+
+  .speech-bubble .arrow-down2 {
+  border-color: #424242 transparent blue transparent;
+  border-style: solid;
+  border-width: 11px 10px 0px 225px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: px;
+  top: px;
+}
+*/
 
 .b2-container {
 	width: 260px;
