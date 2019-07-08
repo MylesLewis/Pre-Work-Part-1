@@ -129,10 +129,10 @@ p {
   text-align: left  !important;
 }
 
-.b4 {
-	background-color: grey;
-	width: 10em;
-	height: 4em;
+input {
+	background-color: white;
+	width: 8em;
+	height: 3em;
 	border-radius: 3%;
 	float: left;
 	border-style: solid;
@@ -144,8 +144,8 @@ p {
 
 .b5 {
 	background-color: grey;
-	width: 10em;
-	height: 4em;
+	width: 8em;
+	height: 3em;
 	border-radius: 3;
 	text-align: center;
 	float: right;
@@ -202,8 +202,10 @@ p {
     already supported this project. Every </br>
     dollar helps </p>
 
-	<div class="b4">
-		<p> Test text for box 4 </p>
+	<div class="form">
+    <form action="Give-Money">
+      <input type="text" placeholder="$50" required>
+    </form>
 	</div>
 	<div class="b5">
 		<p> Give Now </p>
