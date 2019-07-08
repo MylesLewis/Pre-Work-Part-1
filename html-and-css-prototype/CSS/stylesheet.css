@@ -126,6 +126,7 @@ p {
 	border-style: solid;
 	border-width: 2px;
 	border-color: #eaeaea;
+  text-align: left  !important;
 }
 
 .b4 {
@@ -188,7 +189,7 @@ p {
     <h1> $167 still needed for this project </h1>
 	  </font>
 
-  
+
   </div>
 
   <div class="b2-container">
@@ -197,7 +198,10 @@ p {
 
   <div class="b3">
   	<p> <b> <font color= #EF5F3C>Only 3 days left</font></b> to fund this project.</p>
-	  <p> Join the 42 other doners who have already supported this project. Every dollar helps </p>
+	  <p> Join the 42 other doners who have </br>
+    already supported this project. Every </br>
+    dollar helps </p>
+
 	<div class="b4">
 		<p> Test text for box 4 </p>
 	</div>
