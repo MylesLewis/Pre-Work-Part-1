@@ -65,11 +65,11 @@ with the team so we can improve the activity for future applicants.  Thank you! 
 <style>
 * {
   box-sizing: border-box;
-	margin: 0;
+  margin: 0;
 	padding: 0;
 }
 
-b {
+body {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	color: #424242;
 	line-height: 1.4;
@@ -188,7 +188,7 @@ p {
     <h1> $167 still needed for this project </h1>
 	  </font>
 
-
+  
   </div>
 
   <div class="b2-container">
@@ -196,7 +196,7 @@ p {
   </div>
 
   <div class="b3">
-  	<p> Only 3 days left to fund this project.</p>
+  	<p> <b> <font color= #EF5F3C>Only 3 days left</font></b> to fund this project.</p>
 	  <p> Join the 42 other doners who have already supported this project. Every dollar helps </p>
 	<div class="b4">
 		<p> Test text for box 4 </p>
