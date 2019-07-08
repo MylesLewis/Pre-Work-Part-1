@@ -47,6 +47,7 @@ with the team so we can improve the activity for future applicants.  Thank you! 
 /* Your CSS code goes here */
 
 
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -104,7 +105,7 @@ a:link {
 }
 
 
-.b1 {
+.speech-bubble {
 	background-color: #424242;
 	width: 260px;
 	height: 42px;
@@ -117,6 +118,14 @@ a:link {
   position: absolute;
 
 	}
+  .speech-bubble .arrow-down {
+  border-color: #424242 #424242 transparent transparent;
+  border-style: solid;
+  border-width: 0px 10px 11px 215px;
+  width: 0;
+  height: 0;
+
+}
 
 .b2-container {
 	width: 260px;
@@ -235,10 +244,9 @@ input[type=text] {
 </style>
 <div class="container">
 
-  <div class="b1">
-
+  <div class="speech-bubble">
     <h1>$167 still needed for this project</h1>
-
+    <div class="arrow-down"></div>
   </div>
 
   <div class="b2-container">
