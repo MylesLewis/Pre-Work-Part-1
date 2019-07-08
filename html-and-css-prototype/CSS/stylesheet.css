@@ -154,7 +154,7 @@ input[type=text] {
 	background-color: white;
 	width: 100px;
 	height: 45px;
-	border-radius: 3%;
+	border-radius: 8%;
 	float: left;
 	border-style: solid;
 	border-width: 2px;
@@ -163,24 +163,24 @@ input[type=text] {
   font-weight: bold;
   padding: 5px;
 	}
-
+  /*
 .b4{  background-color: white;
 	width: 8em;
 	height: 3em;
-	border-radius: 3%;
+	border-radius: 10%;
 	float: left;
 	border-style: solid;
-	border-width: 2px;
+	border-width: 5px;
 	border-color: #eaeaea;
 	margin: 1em;
 	}
 
-
+*/
 button[type=submit] {
-	background-color: white;
+	background-color: #1CBC2C;
 	width: 100px;
 	height: 45px;
-	border-radius: 3;
+	border-radius: 8%;
 	float: right;
 	border-style: solid;
 	border-width: 2px;
@@ -246,7 +246,11 @@ button[type=submit] {
     <form action="Give-Money">
       <input type="text" placeholder="$50" required>
 
-	    <button type="submit">Give Now</button>
+	    <button type="submit" >
+      <font color="white">
+      <b>Give Now</b>
+      </font>
+      </button>
 
     </form>
 
