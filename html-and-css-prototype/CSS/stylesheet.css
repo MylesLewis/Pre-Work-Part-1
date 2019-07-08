@@ -97,13 +97,15 @@ p {
 
 .b1 {
 	background-color: #424242;
-	width: 49.8%;
-	height: 4em;
+	width: 260;
+	height: 42;
 	text-align: center;
 	border-radius: 3%;
-	vertical-align: middle;
-	font-size: 5pt;
+	font-size: 4pt;
   margin-left: 2px;
+  left: 32%;
+  top 25%;
+  position: absolute;
 
 	}
 
