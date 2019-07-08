@@ -127,6 +127,7 @@ p {
 	border-width: 2px;
 	border-color: #eaeaea;
   text-align: left  !important;
+	padding: 1em;
 }
 
 input {
