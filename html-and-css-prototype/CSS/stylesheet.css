@@ -46,6 +46,7 @@ with the team so we can improve the activity for future applicants.  Thank you! 
 
 /* Your CSS code goes here */
 
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -263,7 +264,7 @@ input[type=text] {
 	<a href="google.com"> <i> Why give $50? </i> </a>
 </div>
 
-  <button class="b6">
+
 	<form action="Save-4-l8r">
     <button class="b6"> Save for later</button>
 
@@ -271,9 +272,9 @@ input[type=text] {
 
 </div>
 
-  <button class="b7">
+
   <form action="tell-friend">
-    <button class="b7"> Tell your friends</button>
+  <button class="b7"> Tell your friends</button>
 
     </form>
 </div>
