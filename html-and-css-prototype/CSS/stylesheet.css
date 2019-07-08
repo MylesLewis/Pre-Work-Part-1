@@ -97,17 +97,19 @@ p {
 
 .b1 {
 	background-color: #424242;
-	width: 100%;
+	width: 49.8%;
 	height: 4em;
 	text-align: center;
 	border-radius: 3%;
 	vertical-align: middle;
-	font-size: 100%;
+	font-size: 5pt;
+  margin-left: 2px;
+
 	}
 
 .b2-container {
-	width: 100%;
-	height: 3%;
+	width: 50%;
+	height: 1.6%;
 	border-style: solid;
 	border-color: #eaeaea;
 	border-width: 2px;
@@ -121,17 +123,30 @@ p {
 
 .b3 {
 	background-color: white;
-	width: 100%;
-	height: 20%;
+	width: 50%;
+	height: 25%;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #eaeaea;
   text-align: left  !important;
   padding: 1em;
+  overflow: auto;
 }
 
-input {
+input[type=text] {
 	background-color: white;
+	width: 8em;
+	height: 3em;
+	border-radius: 3%;
+	float: left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #eaeaea;
+	margin: 1em;
+  font-style: bold;
+	}
+
+.b4{  background-color: white;
 	width: 8em;
 	height: 3em;
 	border-radius: 3%;
@@ -143,21 +158,21 @@ input {
 	}
 
 
-.button {
-	background-color: grey;
+input[type=submit] {
+	background-color: white;
 	width: 8em;
 	height: 3em;
 	border-radius: 3;
-	text-align: center;
 	float: right;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #eaeaea;
 	margin: 1em;
+  padding: 1.75% 5%;
 	}
 
 .b6 {
-	background-color: purple;
+	background-color: white;
 	width: 10em;
 	height: 3em;
 	border-radius: 3;
@@ -166,11 +181,11 @@ input {
 	border-style: solid;
 	border-width: 2px;
 	border-color: #eaeaea;
-	margin-top: 10px;
+  margin-top: 10px;
 	}
 
 .b7 {
-	background-color: purple;
+	background-color: white;
 	width: 10em;
 	height: 3em;
 	border-radius: 3;
@@ -179,7 +194,7 @@ input {
 	border-style: solid;
 	border-width: 2px;
 	border-color: #eaeaea;
-	margin-top: 10px;
+  margin-top: 10px;
 	}
 
 
@@ -205,27 +220,33 @@ input {
     already supported this project. Every </br>
     dollar helps </p>
 
-	<div class="form">
+
     <form action="Give-Money">
       <input type="text" placeholder="$50" required>
 
-	</div>
-	<div class="button">
+
+	<div class="b5">
 
   	 <button type="submit">Give Now</button>
 		</form>
 	</div>
 	</br>
 	</br>
-	</br>
+  </br>
 	<a href="google.com"> <i> Why give $50? </i> </a>
 </div>
 
 <div class="b6">
-	<p> Save for later </p>
+	<form action="Save-4-l8r">
+    <button type="submit"> Save for later</button>
+
+    </form>
 </div>
 <div class="b7">
-	<p> Tell your friends </p>
+  <form action="tell-friend">
+    <button type="submit"> Tell your friends</button>
+
+    </form>
 </div>
 
 </div>
